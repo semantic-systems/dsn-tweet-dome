@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script type="text/javascript" language="javascript" src="main.js"></script>
+
+    <!-- Graph  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.0/cytoscape.min.js" integrity="sha512-6NNH8uUbdENB10r5FH/4DZviHTQ44GtZ+c+fwSiWM4GekjajHkYanpH0+jWt3meFll/HHWAcxKLcMpSAXuT/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+
+</head>
+<body style="background-color:black; color: white;">
+<div id="og_div"></div>
+<h1 class="text-center" hidden id="loading">Loading experience...</h1>
+<form class="text-center" id="experience-form">
+    <div class="form-group">
+        <input class="form-control form-control-lg" placeholder="Write the hashtag divided by the spacebar" name="inputTweet" id="inputTweet" type="text" >
+    </div>
+    <button class="btn btn-success" type="button" id="btnAnnotation" > Start custom experience</button>
+    <button class="btn btn-warning" type="button" id="btnSimulation" > Start default experience</button>
+</form>
+</body>
+</html>
